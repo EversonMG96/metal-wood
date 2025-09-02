@@ -31,6 +31,171 @@
                 </div>
             </button>
         </div>
+         <div id="mobile-menu" class="hidden md:hidden bg-white">
+            <a href="#home" class="block py-2 px-6 text-sm text-gray-600 hover:bg-amber-50">Home</a>
+            <a href="#sobre" class="block py-2 px-6 text-sm text-gray-600 hover:bg-amber-50">Sobre Nós</a>
+            <a href="#equipe" class="block py-2 px-6 text-sm text-gray-600 hover:bg-amber-50">Equipe</a>
+            <a href="#portfolio" class="block py-2 px-6 text-sm text-gray-600 hover:bg-amber-50">Portfólio</a>
+            <a href="#servicos" class="block py-2 px-6 text-sm text-gray-600 hover:bg-amber-50">Serviços</a>
+            <a href="#contato" class="block py-2 px-6 text-sm text-gray-600 hover:bg-amber-50">Contato</a>
+            <div class="p-4">
+                 <a href="#contato" class="w-full text-center bg-amber-500 text-white px-4 py-2 rounded-md hover:bg-amber-600 transition duration-300 block">Solicitar Orçamento</a>
+            </div>
+        </div>
     </header>
+    <main>
+        <section id="home" class="hero-bg h-screen flex items-center justify-center">
+            <div class="bg-black/50 w-full h-full flex items-center justify-center">
+                <div class="text-center text-white p-6">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Design Industrial. Força que Inspira.</h1>
+                    <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Criamos móveis que unem a robustez do metal e o calor da madeira, com design que dura gerações.</p>
+                    <a href="#portfolio" class="bg-amber-500 text-white px-8 py-3 rounded-md text-lg hover:bg-amber-600 transition duration-300">Conheça Nossos Produtos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4">Nossa História e Compromisso</h2>
+                        <p class="mb-4 text-gray-600 leading-relaxed">Fundada com a paixão por design e a precisão da engenharia, a MetalWood nasceu para transformar espaços. Acreditamos que um móvel não é apenas um objeto, mas uma peça central de um ambiente, que deve ser funcional, durável e esteticamente marcante. Cada peça que produzimos carrega nossa dedicação à qualidade e à inovação.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
+                            <div class="text-center p-4 rounded-lg bg-stone-100">
+                                <span class="text-4xl text-amber-500">★</span>
+                                <h3 class="font-semibold mt-2">Qualidade</h3>
+                                <p class="text-sm text-gray-500">Materiais de primeira e acabamento impecável.</p>
+                            </div>
+                            <div class="text-center p-4 rounded-lg bg-stone-100">
+                                <span class="text-4xl text-amber-500">⚙</span>
+                                <h3 class="font-semibold mt-2">Inovação</h3>
+                                <p class="text-sm text-gray-500">Design moderno e soluções inteligentes.</p>
+                            </div>
+                            <div class="text-center p-4 rounded-lg bg-stone-100">
+                                <span class="text-4xl text-amber-500">♻</span>
+                                <h3 class="font-semibold mt-2">Sustentabilidade</h3>
+                                <p class="text-sm text-gray-500">Processos e materiais que respeitam o meio ambiente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://placehold.co/600x400/a0aec0/4a5568?text=Nossa+Oficina" alt="Oficina da MetalWood" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipe" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold">Nossa Equipe</h2>
+                    <p class="text-gray-600 mt-2">Conheça os profissionais por trás da MetalWood.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <img src="https://placehold.co/150x150/718096/e2e8f0?text=Jo%C3%A3o" alt="Membro da Equipe João" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-semibold mb-1">João Silva</h3>
+                        <p class="text-gray-600">Arquiteto e Designer</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <img src="https://placehold.co/150x150/4a5568/e2e8f0?text=Maria" alt="Membro da Equipe Maria" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-semibold mb-1">Maria Santos</h3>
+                        <p class="text-gray-600">Engenheira de Produção</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <img src="https://placehold.co/150x150/2d3748/e2e8f0?text=Pedro" alt="Membro da Equipe Pedro" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-semibold mb-1">Pedro Oliveira</h3>
+                        <p class="text-gray-600">Gerente Comercial</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-20 bg-stone-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold">Nosso Portfólio</h2>
+                    <p class="text-gray-600 mt-2">Explore alguns dos nossos projetos e produtos exclusivos.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="group overflow-hidden rounded-lg shadow-lg">
+                        <img src="https://placehold.co/600x400/718096/e2e8f0?text=Estante+Met%C3%A1lica" alt="Estante Metálica" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                     <div class="group overflow-hidden rounded-lg shadow-lg">
+                        <img src="https://placehold.co/600x400/4a5568/e2e8f0?text=Mesa+de+Jantar" alt="Mesa de Jantar" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                     <div class="group overflow-hidden rounded-lg shadow-lg">
+                        <img src="https://placehold.co/600x400/2d3748/e2e8f0?text=Bancada+de+Cozinha" alt="Bancada de Cozinha" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                     <div class="group overflow-hidden rounded-lg shadow-lg">
+                        <img src="https://placehold.co/600x400/1a202c/e2e8f0?text=Aparador" alt="Aparador" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                     <div class="group overflow-hidden rounded-lg shadow-lg">
+                        <img src="https://placehold.co/600x400/4a5568/e2e8f0?text=Banco+Industrial" alt="Banco Industrial" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                     <div class="group overflow-hidden rounded-lg shadow-lg">
+                        <img src="https://placehold.co/600x400/718096/e2e8f0?text=Mesa+de+Centro" alt="Mesa de Centro" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="py-20">
+             <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold">Nossos Serviços</h2>
+                    <p class="text-gray-600 mt-2">Soluções completas para seu espaço.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-5xl text-amber-500 mb-4">✏️</div>
+                        <h3 class="text-xl font-semibold mb-2">Projetos Sob Medida</h3>
+                        <p class="text-gray-600">Desenvolvemos móveis exclusivos que se adaptam perfeitamente às suas necessidades e ao seu espaço.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-5xl text-amber-500 mb-4">🏢</div>
+                        <h3 class="text-xl font-semibold mb-2">Móveis Corporativos</h3>
+                        <p class="text-gray-600">Soluções de design e funcionalidade para escritórios, lojas e restaurantes.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-5xl text-amber-500 mb-4">🚚</div>
+                        <h3 class="text-xl font-semibold mb-2">Consultoria e Montagem</h3>
+                        <p class="text-gray-600">Oferecemos consultoria para o seu projeto e garantimos uma montagem profissional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="py-20 bg-stone-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold">Fale Conosco</h2>
+                    <p class="text-gray-600 mt-2">Vamos construir algo incrível juntos. Solicite seu orçamento sem compromisso.</p>
+                </div>
+                <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                    <form id="contact-form">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700">Nome</label>
+                                <input type="text" id="name" required class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-amber-500 focus:border-amber-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
+                                <input type="email" id="email" required class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-amber-500 focus:border-amber-500">
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <label for="message" class="block text-sm font-medium text-gray-700">Mensagem</label>
+                            <textarea id="message" rows="5" required class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-amber-500 focus:border-amber-500"></textarea>
+                        </div>
+                        <div class="mt-6 text-right">
+                            <button type="submit" class="bg-amber-500 text-white px-8 py-3 rounded-md text-lg hover:bg-amber-600 transition duration-300">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                    <div id="form-feedback" class="mt-4 text-center"></div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
